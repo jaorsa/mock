@@ -3400,9 +3400,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hpv-7z-pcE">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hpv-7z-pcE">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZ6-O2-yEz">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -3430,9 +3429,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jUE-hi-Unq">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jUE-hi-Unq">
                                 <rect key="frame" x="0.0" y="231" width="414" height="399"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MRU-PU-Jao">
                                         <rect key="frame" x="0.0" y="77" width="414" height="80"/>
@@ -3513,18 +3511,16 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owO-sb-kTy">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owO-sb-kTy">
                                 <rect key="frame" x="145" y="656" width="125" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.83524977990000004" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yO-Hu-aoI">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9yO-Hu-aoI">
+                                <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="NOZ-k3-G33">
@@ -3549,6 +3545,18 @@
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="9yO-Hu-aoI" secondAttribute="bottom" id="6Xo-DF-cX2"/>
+                            <constraint firstAttribute="trailing" secondItem="jUE-hi-Unq" secondAttribute="trailing" id="BV0-jU-qne"/>
+                            <constraint firstItem="owO-sb-kTy" firstAttribute="leading" secondItem="8nM-lz-Sts" secondAttribute="leadingMargin" constant="125" id="ENg-S8-HL2"/>
+                            <constraint firstAttribute="trailing" secondItem="9yO-Hu-aoI" secondAttribute="trailing" id="RFu-Cl-Dfn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="owO-sb-kTy" secondAttribute="trailing" constant="124" id="Y1h-Gj-REU"/>
+                            <constraint firstItem="jUE-hi-Unq" firstAttribute="leading" secondItem="8nM-lz-Sts" secondAttribute="leading" id="c5U-mY-xab"/>
+                            <constraint firstItem="9yO-Hu-aoI" firstAttribute="leading" secondItem="8nM-lz-Sts" secondAttribute="leading" id="frz-pR-r7F"/>
+                            <constraint firstItem="Hpv-7z-pcE" firstAttribute="top" secondItem="8nM-lz-Sts" secondAttribute="top" constant="44" id="oIh-Qs-SF4"/>
+                            <constraint firstAttribute="trailing" secondItem="Hpv-7z-pcE" secondAttribute="trailing" id="tEY-ON-ezX"/>
+                            <constraint firstItem="Hpv-7z-pcE" firstAttribute="leading" secondItem="8nM-lz-Sts" secondAttribute="leading" id="wqb-DY-oOV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="HCo-Se-8B5"/>
                     </view>
                 </viewController>
@@ -3564,9 +3572,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kRR-H9-LqL">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kRR-H9-LqL">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzc-k2-znY">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -3580,9 +3587,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSZ-dZ-STR">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSZ-dZ-STR">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0T5-oZ-Ybk">
                                         <rect key="frame" x="360" y="17" width="46" height="39"/>
@@ -3600,9 +3606,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fHU-p2-qoN">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fHU-p2-qoN">
                                 <rect key="frame" x="0.0" y="234" width="414" height="238"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xeN-CS-Mdb">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
@@ -3665,9 +3670,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eFI-Gp-KJR">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eFI-Gp-KJR">
                                 <rect key="frame" x="0.0" y="495" width="414" height="238"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FsH-qk-STO">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
@@ -3723,9 +3727,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAl-Ey-i3W">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dAl-Ey-i3W">
+                                <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="u11-a8-h59">
@@ -3750,6 +3753,22 @@
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fHU-p2-qoN" secondAttribute="trailing" id="CHj-aS-O9m"/>
+                            <constraint firstAttribute="trailing" secondItem="eFI-Gp-KJR" secondAttribute="trailing" id="IUM-su-hlS"/>
+                            <constraint firstItem="eFI-Gp-KJR" firstAttribute="leading" secondItem="eXs-Tf-Uew" secondAttribute="leading" id="Kmx-an-7bF"/>
+                            <constraint firstAttribute="trailing" secondItem="kRR-H9-LqL" secondAttribute="trailing" id="MPe-32-JBI"/>
+                            <constraint firstAttribute="trailing" secondItem="hSZ-dZ-STR" secondAttribute="trailing" id="VvR-6B-zZE"/>
+                            <constraint firstAttribute="bottom" secondItem="dAl-Ey-i3W" secondAttribute="bottom" id="bJc-fR-WpL"/>
+                            <constraint firstItem="eFI-Gp-KJR" firstAttribute="leading" secondItem="eXs-Tf-Uew" secondAttribute="leading" id="d8z-Gl-MdT"/>
+                            <constraint firstItem="kRR-H9-LqL" firstAttribute="leading" secondItem="eXs-Tf-Uew" secondAttribute="leading" id="f1o-ml-jHu"/>
+                            <constraint firstAttribute="trailing" secondItem="eFI-Gp-KJR" secondAttribute="trailing" id="ftH-nS-Oo0"/>
+                            <constraint firstItem="hSZ-dZ-STR" firstAttribute="leading" secondItem="eXs-Tf-Uew" secondAttribute="leading" id="hIc-di-TYv"/>
+                            <constraint firstItem="fHU-p2-qoN" firstAttribute="leading" secondItem="eXs-Tf-Uew" secondAttribute="leading" id="hyt-N7-sxK"/>
+                            <constraint firstItem="kRR-H9-LqL" firstAttribute="top" secondItem="eXs-Tf-Uew" secondAttribute="top" constant="44" id="pv9-AP-SQk"/>
+                            <constraint firstAttribute="trailing" secondItem="dAl-Ey-i3W" secondAttribute="trailing" id="vSf-hB-m7h"/>
+                            <constraint firstItem="dAl-Ey-i3W" firstAttribute="leading" secondItem="eXs-Tf-Uew" secondAttribute="leading" id="wV2-uV-UD8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Kdb-6O-oBq"/>
                     </view>
                 </viewController>
@@ -3765,9 +3784,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zfu-dD-jcy">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zfu-dD-jcy">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOK-4Y-sVk">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -3781,9 +3799,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mp1-q5-hvT">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mp1-q5-hvT">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jitomate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2B3-05-gvz">
                                         <rect key="frame" x="0.0" y="18" width="414" height="36"/>
@@ -3795,9 +3812,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WcR-1M-2nr">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WcR-1M-2nr">
                                 <rect key="frame" x="0.0" y="231" width="414" height="399"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Flj-Aw-AIT">
                                         <rect key="frame" x="0.0" y="77" width="414" height="80"/>
@@ -3879,9 +3895,8 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VqH-8Q-V8F">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VqH-8Q-V8F">
+                                <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="0z0-l2-duR">
@@ -3906,6 +3921,18 @@
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VqH-8Q-V8F" secondAttribute="trailing" id="CLR-mV-cRD"/>
+                            <constraint firstAttribute="trailing" secondItem="zfu-dD-jcy" secondAttribute="trailing" id="HMz-6G-TE1"/>
+                            <constraint firstItem="VqH-8Q-V8F" firstAttribute="leading" secondItem="6Qb-FO-DBp" secondAttribute="leading" id="MAB-Fh-wVe"/>
+                            <constraint firstItem="zfu-dD-jcy" firstAttribute="leading" secondItem="6Qb-FO-DBp" secondAttribute="leading" id="STQ-YF-Jiz"/>
+                            <constraint firstItem="WcR-1M-2nr" firstAttribute="leading" secondItem="6Qb-FO-DBp" secondAttribute="leading" id="bjr-cZ-L5C"/>
+                            <constraint firstAttribute="trailing" secondItem="mp1-q5-hvT" secondAttribute="trailing" id="hyU-b6-RyF"/>
+                            <constraint firstAttribute="bottom" secondItem="VqH-8Q-V8F" secondAttribute="bottom" id="lF8-JP-n40"/>
+                            <constraint firstAttribute="trailing" secondItem="WcR-1M-2nr" secondAttribute="trailing" id="oAg-5U-Hib"/>
+                            <constraint firstItem="mp1-q5-hvT" firstAttribute="leading" secondItem="6Qb-FO-DBp" secondAttribute="leading" id="uOv-VZ-Syy"/>
+                            <constraint firstItem="zfu-dD-jcy" firstAttribute="top" secondItem="6Qb-FO-DBp" secondAttribute="top" constant="44" id="xKx-TQ-Ft0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PUr-Ad-miw"/>
                     </view>
                 </viewController>
@@ -3921,9 +3948,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drH-m1-0gO">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drH-m1-0gO">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnL-9d-cMe">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -4103,6 +4129,11 @@
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="drH-m1-0gO" firstAttribute="leading" secondItem="HbG-2r-CCI" secondAttribute="leading" id="49F-fs-5z0"/>
+                            <constraint firstAttribute="trailing" secondItem="drH-m1-0gO" secondAttribute="trailing" id="XFo-JG-MKI"/>
+                            <constraint firstItem="drH-m1-0gO" firstAttribute="top" secondItem="HbG-2r-CCI" secondAttribute="top" constant="44" id="vpo-lh-8Ql"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1QS-ff-d5D"/>
                     </view>
                 </viewController>
