@@ -228,11 +228,21 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="6uM-Cy-fDu"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="trA-Pd-YbT"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="SJa-en-M6f"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="N8S-UG-gt0"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="t1y-YN-c1c"/>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="6uM-Cy-fDu">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="trA-Pd-YbT">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="SJa-en-M6f">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="N8S-UG-gt0">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="t1y-YN-c1c">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
                                 </items>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -297,18 +307,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="06j-U0-T9V">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="peJ-u2-aZI"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="Qp8-Wj-x1I"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="Ham-YU-vSh"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="AJM-ZL-rY0"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="i0V-h4-Yof"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OvV-oO-3IH">
                                 <rect key="frame" x="0.0" y="53" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -587,6 +585,31 @@
                                     </tableViewSection>
                                 </sections>
                             </tableView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ovh-gY-WCy">
+                                <rect key="frame" x="0.0" y="805" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="JTl-xO-lw8">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="K2x-mi-4g3">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="wJ5-gb-lMJ">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="p9a-bN-ycm">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="VB2-0H-Q6A">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QSS-Pv-abx"/>
@@ -646,17 +669,30 @@
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="icons8-team-60"/>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4oB-pP-fem">
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1iZ-iB-0xj">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="TgZ-ad-zQe"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="kLt-QV-fDF"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="ZOY-ep-Rd0"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="U3z-jg-oeo"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="wB9-X6-U1L"/>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="1aq-Dr-uiP">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="lmR-8G-xok">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="6es-8r-fHw">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="aFh-S6-v06">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="EZ2-4K-hms">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
                                 </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -711,18 +747,6 @@
                                 <color key="textColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DIU-0H-Dbj">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="zqf-Gp-xz9"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="zrs-Xi-w6k"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="HQu-oc-s2T"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="H24-p3-3vA"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="GrZ-6L-rBq"/>
-                                </items>
-                            </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRJ-1Z-VbA">
                                 <rect key="frame" x="331" y="225" width="56" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -731,6 +755,31 @@
                                     <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ydD-MQ-cx4">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="Kgq-IQ-TwC">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="DS7-Wo-cQv">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="rTL-Vo-Qgi">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="XgN-Q7-kLk">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="xk0-gC-c65">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="IEq-c8-Yj1"/>
@@ -956,6 +1005,31 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sla-4a-WiH">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="k65-HH-OsZ">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="7OT-OZ-eoj">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="Bcd-HZ-QOT">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="hH7-NP-3RO">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="cPu-Vt-sl5">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Yl-92-L5x"/>
@@ -995,18 +1069,6 @@
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="icons8-female-profile-250"/>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kCz-t2-aw2">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="yJT-Ho-tG5"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="Hxb-A8-Jv2"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="Iue-R8-n85"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="bes-We-Voo"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="Xrk-vw-6vc"/>
-                                </items>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Añadir nuevo integrante" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8la-3e-3GG">
                                 <rect key="frame" x="61" y="160" width="303" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1029,6 +1091,31 @@
                                     <color key="titleColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lYS-Fm-Sth">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="qfx-58-Ixz">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="hQf-wM-yH3">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="Qa2-m9-mGQ">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="f5C-1I-AbK">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="A67-nb-yIE">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DpE-vL-p7g"/>
@@ -1103,18 +1190,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0FD-co-b7b">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="3no-Zq-axG"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="ezn-Dm-qGH"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="bw3-Vc-6vE"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="gyo-vP-XJI"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="3Ti-S5-ss2"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-cD-bDZ">
                                 <rect key="frame" x="11" y="244" width="188" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1235,6 +1310,31 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5SV-QL-q6V">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="PaF-24-MCQ">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="38p-HT-ahj">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="mb3-0n-j9Q">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="7tC-2K-RuT">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="Yp0-m7-Afn">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9iL-l9-mOy"/>
@@ -1309,18 +1409,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oxf-5z-Bd3">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="XmA-d9-Es5"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="XgH-KD-DBn"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="Hvu-jT-DiW"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="Jkn-rV-ugl"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="V2h-0y-ENI"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YNS-p8-G5s">
                                 <rect key="frame" x="11" y="244" width="188" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1469,8 +1557,33 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0FV-KO-0N9">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="pml-VK-WKu">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="dkj-Zf-wpK">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="9jy-32-7vA">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="WER-Dl-8jO">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="g1n-Ef-2nZ">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kb" translatesAutoresizingMaskIntoConstraints="NO" id="NCT-Dd-sbO">
-                                <rect key="frame" x="0.0" y="521" width="414" height="288"/>
+                                <rect key="frame" x="0.0" y="525" width="414" height="288"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1774,17 +1887,30 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ms7-75-91X">
-                                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="664-O6-7Pl">
+                                        <rect key="frame" x="0.0" y="815" width="414" height="49"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <items>
-                                            <tabBarItem title="Animales" image="ant.fill" id="4be-Ho-RjK"/>
-                                            <tabBarItem title="Cultivos" image="suit.club.fill" id="NPP-cz-LJ5"/>
-                                            <tabBarItem title="Actividades" image="checkmark.square.fill" id="ZtG-N7-hXu"/>
-                                            <tabBarItem title="Calendario" image="calendar" id="7As-9J-tu9"/>
-                                            <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="o7W-Go-WYA"/>
+                                            <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="yMW-tB-0vU">
+                                                <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="St2-ix-oSb">
+                                                <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Actividades" image="icons8-task-completed-50" id="ZGe-48-qhA">
+                                                <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Calendario" image="icons8-calendar-50" id="8hT-0V-dG0">
+                                                <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Extras" image="icons8-user-50" id="gZH-fF-jy4">
+                                                <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                            </tabBarItem>
                                         </items>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tabBar>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2091,18 +2217,6 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="owQ-l2-WAM">
-                                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <items>
-                                            <tabBarItem title="Animales" image="ant.fill" id="9R3-Nf-n9p"/>
-                                            <tabBarItem title="Cultivos" image="suit.club.fill" id="UCi-lE-Ilm"/>
-                                            <tabBarItem title="Actividades" image="checkmark.square.fill" id="jAx-d2-kaB"/>
-                                            <tabBarItem title="Calendario" image="calendar" id="SMe-8f-isa"/>
-                                            <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="cT4-Ln-tBy"/>
-                                        </items>
-                                    </tabBar>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ml8-iI-CTn">
                                         <rect key="frame" x="0.0" y="425" width="414" height="155"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2135,6 +2249,31 @@
                                         <rect key="frame" x="0.0" y="531" width="414" height="288"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e1o-vQ-LUj">
+                                        <rect key="frame" x="0.0" y="819" width="414" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <items>
+                                            <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="owO-7l-qO6">
+                                                <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="RZ6-Xb-MoO">
+                                                <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Actividades" image="icons8-task-completed-50" id="Y0u-Wi-ZsX">
+                                                <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Calendario" image="icons8-calendar-50" id="PLi-kl-slG">
+                                                <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Extras" image="icons8-user-50" id="haz-SR-trJ">
+                                                <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                            </tabBarItem>
+                                        </items>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tabBar>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="wtW-UU-3Va"/>
@@ -2440,18 +2579,6 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPm-py-Uve">
-                                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <items>
-                                            <tabBarItem title="Animales" image="ant.fill" id="ra4-nD-nMD"/>
-                                            <tabBarItem title="Cultivos" image="suit.club.fill" id="Anu-Ra-sHV"/>
-                                            <tabBarItem title="Actividades" image="checkmark.square.fill" id="OWO-Cq-2fc"/>
-                                            <tabBarItem title="Calendario" image="calendar" id="V5a-af-BvF"/>
-                                            <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="d2G-nN-JBZ"/>
-                                        </items>
-                                    </tabBar>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKo-Ea-Jwt">
                                         <rect key="frame" x="44" y="337" width="312" height="223"/>
                                         <subviews>
@@ -2485,6 +2612,31 @@
                                             <constraint firstItem="fez-vH-Kvz" firstAttribute="leading" secondItem="iKo-Ea-Jwt" secondAttribute="leading" constant="186" id="GVR-A3-bcd"/>
                                         </constraints>
                                     </view>
+                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xLw-FA-3cu">
+                                        <rect key="frame" x="-8" y="805" width="414" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <items>
+                                            <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="7KT-Dl-iJX">
+                                                <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="c4A-0E-IIa">
+                                                <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Actividades" image="icons8-task-completed-50" id="PyU-3H-zZx">
+                                                <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Calendario" image="icons8-calendar-50" id="748-JF-G3C">
+                                                <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                            </tabBarItem>
+                                            <tabBarItem title="Extras" image="icons8-user-50" id="VkJ-wS-1yn">
+                                                <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                            </tabBarItem>
+                                        </items>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tabBar>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="cqv-Ef-J3g"/>
@@ -2522,18 +2674,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MzQ-Fo-jQ7">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="S3N-tz-rFD"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="GoF-T4-ehE"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="eMZ-IA-VRN"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="WyY-qF-fqR"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="MAN-sz-rka"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eep-ay-uvL">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2635,6 +2775,31 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mqb-cS-TnH">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="szn-s3-ra6">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="Vwp-Aj-tkJ">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="En2-ko-dLT">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="gj7-4m-izn">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="Mnx-27-fVF">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="acu-94-NeI"/>
@@ -2668,18 +2833,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYx-Wo-MYo">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="WAV-wo-2oF"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="cvB-mC-Aer"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="7FX-vO-cHF"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="D2f-l0-z8E"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="EQ4-RS-NI6"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rsB-gR-WX3">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2786,6 +2939,31 @@
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dFq-HO-4YG">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="cSH-if-tQz">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="fxU-d6-Q9F">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="S9w-Zx-yIe">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="kqH-g7-33U">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="hAZ-Un-396">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1md-nn-QHW"/>
@@ -2819,18 +2997,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Til-ko-6Ip">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="ZDP-eq-IzY"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="lDL-Fr-JMt"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="Pge-I0-dcM"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="igD-4W-S2U"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="eAu-5H-bDs"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y4M-PU-8kJ">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2911,6 +3077,31 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zwe-6d-Nex">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="2fV-a0-ntr">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="hxM-tI-MUH">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="ezs-3T-Mz0">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="eRo-zU-cJA">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="Nw8-pG-cac">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="n9J-Qp-Wph"/>
@@ -2944,18 +3135,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1BN-BX-5cr">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="5zb-0Y-jud"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="y5r-kX-Etb"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="bei-vd-oFk"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="CK1-7x-RU1"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="d3w-kQ-Qa3"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3F-gd-W4r">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3027,6 +3206,31 @@
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F4F-QZ-ryj">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="A3m-RP-sLg">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="ZDo-52-0ap">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="zE0-i4-TuP">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="i51-8U-4Tm">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="kWJ-Ic-68k">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dBr-JH-8Es"/>
@@ -3060,18 +3264,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEy-ii-crq">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="t8X-RE-CIe"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="2JL-Me-KFc"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="PTJ-Pc-eWY"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="DP3-lr-PbP"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="3h5-ZN-b9O"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I9m-n3-ncb">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3166,6 +3358,31 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ehO-VI-MEH">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="iZq-qO-b5S">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="CIv-Kj-IOD">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="D3q-gU-EfZ">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="tTd-vh-TyD">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="q0M-aT-Kpi">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KkW-8G-dbW"/>
@@ -3199,18 +3416,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rYc-Z1-oJZ">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="ixx-a6-Aqc"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="tgY-oh-aXd"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="hGH-VY-H9V"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="xgw-2v-7HQ"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="RKY-A0-hII"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTr-zl-7se">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3317,6 +3522,31 @@
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yO-Hu-aoI">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="NOZ-k3-G33">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="rXh-by-dG4">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="pBI-lK-qQO">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="ebH-DL-fdo">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="5SU-m6-jdF">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="HCo-Se-8B5"/>
@@ -3350,18 +3580,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g02-jh-a3g">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="xgf-Ts-bAP"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="DVw-GM-OwH"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="Goc-tj-3If"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="gLF-7o-ZxA"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="v5r-Du-hxJ"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSZ-dZ-STR">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3505,6 +3723,31 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAl-Ey-i3W">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="u11-a8-h59">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="No8-Af-3IB">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="hfI-P0-blc">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="GIr-DV-1DK">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="YCX-r5-iz7">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Kdb-6O-oBq"/>
@@ -3538,18 +3781,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9z-nj-3OH">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="VjB-3v-Gi5"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="WB0-YC-hyz"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="V1h-WT-51x"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="IYQ-4t-ZUK"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="w0P-2V-Aw1"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mp1-q5-hvT">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3648,6 +3879,31 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VqH-8Q-V8F">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="0z0-l2-duR">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="qPn-vx-ASe">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="b5p-S3-0OE">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="Md4-gz-6Zz">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="ZBd-7k-Qj0">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PUr-Ad-miw"/>
@@ -3681,18 +3937,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rjA-g4-P2V">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="VWP-Dy-jY4"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="Hun-Gf-jKi"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="3S3-5O-Wvk"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="O0P-82-ToQ"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="pYe-MO-Ckl"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ta3-Gr-AhP">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3832,6 +4076,31 @@
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="frk-EI-7Lo">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="jYO-24-m8J">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="Woq-mW-fSW">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="Tgx-Xg-yd9">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="AbM-d2-DFY">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="OwY-Ca-976">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1QS-ff-d5D"/>
@@ -3849,9 +4118,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n1w-FC-Zkl">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n1w-FC-Zkl">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoY-iS-MjH">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -3865,21 +4133,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wKz-v7-oeN">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="Lef-0n-gwI"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="JwD-LY-bFF"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="TEc-nn-qr1"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="knq-08-JXm"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="1IO-l5-Psd"/>
-                                </items>
-                            </tabBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8hV-5j-nFA">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8hV-5j-nFA">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insecticidas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUp-KI-c7t">
                                         <rect key="frame" x="0.0" y="18" width="414" height="36"/>
@@ -3891,9 +4146,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tx1-70-pq7">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tx1-70-pq7">
                                 <rect key="frame" x="0.0" y="231" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe1-L8-aNR">
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
@@ -3918,9 +4172,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFH-jQ-sGb">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFH-jQ-sGb">
                                 <rect key="frame" x="0.0" y="384" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnm-Et-7YO">
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
@@ -3945,8 +4198,45 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37o-yh-Bbn">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="pde-EC-OJI">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="JK3-hD-TgZ">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="jHE-5K-DNh">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="nR1-2b-feB">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="saE-7D-1Kc">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8hV-5j-nFA" secondAttribute="trailing" id="2xP-GC-oX2"/>
+                            <constraint firstItem="8hV-5j-nFA" firstAttribute="leading" secondItem="hf3-du-3Ce" secondAttribute="leading" id="3QI-6O-Bcy"/>
+                            <constraint firstItem="n1w-FC-Zkl" firstAttribute="top" secondItem="hf3-du-3Ce" secondAttribute="top" constant="44" id="3mN-lc-jbr"/>
+                            <constraint firstAttribute="trailing" secondItem="Tx1-70-pq7" secondAttribute="trailing" id="5kY-7j-V1M"/>
+                            <constraint firstAttribute="trailing" secondItem="n1w-FC-Zkl" secondAttribute="trailing" id="BTs-qE-KL1"/>
+                            <constraint firstItem="kFH-jQ-sGb" firstAttribute="leading" secondItem="hf3-du-3Ce" secondAttribute="leading" id="Cgx-hp-cjs"/>
+                            <constraint firstItem="Tx1-70-pq7" firstAttribute="leading" secondItem="hf3-du-3Ce" secondAttribute="leading" id="EIh-1y-Ooc"/>
+                            <constraint firstItem="8hV-5j-nFA" firstAttribute="top" secondItem="hf3-du-3Ce" secondAttribute="top" constant="121" id="F0X-aC-gmq"/>
+                            <constraint firstItem="n1w-FC-Zkl" firstAttribute="leading" secondItem="hf3-du-3Ce" secondAttribute="leading" id="edY-1g-2qR"/>
+                            <constraint firstAttribute="trailing" secondItem="kFH-jQ-sGb" secondAttribute="trailing" id="vQH-EO-uSv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5J0-yk-qFN"/>
                     </view>
                 </viewController>
@@ -3962,9 +4252,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y1J-lR-n5D">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y1J-lR-n5D">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSz-FI-ATC">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -3978,21 +4267,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dR6-xV-oOt">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="WyZ-Cc-MnL"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="EW0-yr-mzo"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="lt7-Kq-ZKl"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="HOX-Jm-LKN"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="EQq-V5-JrA"/>
-                                </items>
-                            </tabBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="318-3E-UCI">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="318-3E-UCI">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spray de ajo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPK-bF-TYT">
                                         <rect key="frame" x="0.0" y="22" width="414" height="36"/>
@@ -4004,9 +4280,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hcv-dz-3Wd">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hcv-dz-3Wd">
                                 <rect key="frame" x="0.0" y="231" width="414" height="234"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8yQ-Se-BeM">
                                         <rect key="frame" x="0.0" y="77" width="414" height="80"/>
@@ -4055,17 +4330,52 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9O-5R-aDv">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9O-5R-aDv">
                                 <rect key="frame" x="145" y="502" width="125" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.83524977990000004" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-Gb-JG2">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="OWb-tB-HgV">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="jSy-jF-Hfj">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="njN-2D-alh">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="dRX-9a-WbV">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="3SY-4O-i6y">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hcv-dz-3Wd" firstAttribute="leading" secondItem="PRM-7U-Fc3" secondAttribute="leading" id="AYa-h8-oks"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y9O-5R-aDv" secondAttribute="trailing" constant="124" id="IBO-KZ-Rpl"/>
+                            <constraint firstItem="Y1J-lR-n5D" firstAttribute="leading" secondItem="PRM-7U-Fc3" secondAttribute="leading" id="JHB-mt-fnM"/>
+                            <constraint firstItem="Y1J-lR-n5D" firstAttribute="top" secondItem="PRM-7U-Fc3" secondAttribute="top" constant="44" id="K2M-oF-dRZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Y1J-lR-n5D" secondAttribute="trailing" id="MAx-gw-ykV"/>
+                            <constraint firstItem="y9O-5R-aDv" firstAttribute="leading" secondItem="PRM-7U-Fc3" secondAttribute="leadingMargin" constant="125" id="VFV-pX-DhW"/>
+                            <constraint firstAttribute="trailing" secondItem="Hcv-dz-3Wd" secondAttribute="trailing" id="beQ-sU-eKd"/>
+                            <constraint firstAttribute="trailing" secondItem="318-3E-UCI" secondAttribute="trailing" id="rQ1-3V-gEi"/>
+                            <constraint firstItem="318-3E-UCI" firstAttribute="leading" secondItem="PRM-7U-Fc3" secondAttribute="leading" id="yBq-Kn-CKJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="IOA-LQ-fnj"/>
                     </view>
                 </viewController>
@@ -4081,9 +4391,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mH1-jQ-qZ7">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mH1-jQ-qZ7">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQZ-rv-NIj">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -4097,21 +4406,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r2T-tK-pDH">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="Ibp-eL-td1"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="KXn-Tg-3Eb"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="ner-kR-DZz"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="d1f-D7-gNj"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="653-OR-kW0"/>
-                                </items>
-                            </tabBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XLd-tA-gUA">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XLd-tA-gUA">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fungicidas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abL-M8-ZYC">
                                         <rect key="frame" x="0.0" y="18" width="414" height="36"/>
@@ -4123,9 +4419,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jkx-Iw-ddL">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jkx-Iw-ddL">
                                 <rect key="frame" x="0.0" y="231" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STL-vy-R0V">
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
@@ -4150,9 +4445,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F0B-8h-WMd">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F0B-8h-WMd">
                                 <rect key="frame" x="0.0" y="384" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjs-H0-Grt">
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
@@ -4177,8 +4471,45 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Csl-Hc-Eic">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="R9M-Ln-Koh">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="OIj-IL-fwa">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="Ylw-tf-kIh">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="T5U-0z-bIW">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="jYk-TQ-uTF">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="F0B-8h-WMd" secondAttribute="trailing" id="2p0-rP-nTG"/>
+                            <constraint firstItem="XLd-tA-gUA" firstAttribute="top" secondItem="zX5-Za-ysX" secondAttribute="top" constant="77" id="9OP-fL-sCc"/>
+                            <constraint firstAttribute="trailing" secondItem="jkx-Iw-ddL" secondAttribute="trailing" id="BYL-hy-jF3"/>
+                            <constraint firstItem="mH1-jQ-qZ7" firstAttribute="leading" secondItem="uA8-Xy-X6q" secondAttribute="leading" id="DX3-er-rHq"/>
+                            <constraint firstItem="jkx-Iw-ddL" firstAttribute="leading" secondItem="uA8-Xy-X6q" secondAttribute="leading" id="E0I-1A-xaw"/>
+                            <constraint firstAttribute="trailing" secondItem="mH1-jQ-qZ7" secondAttribute="trailing" id="gPC-aK-yhj"/>
+                            <constraint firstItem="mH1-jQ-qZ7" firstAttribute="top" secondItem="uA8-Xy-X6q" secondAttribute="top" constant="44" id="kSV-fO-SCM"/>
+                            <constraint firstAttribute="trailing" secondItem="XLd-tA-gUA" secondAttribute="trailing" id="oUy-vd-XgK"/>
+                            <constraint firstItem="F0B-8h-WMd" firstAttribute="leading" secondItem="uA8-Xy-X6q" secondAttribute="leading" id="rkP-in-l97"/>
+                            <constraint firstItem="XLd-tA-gUA" firstAttribute="leading" secondItem="uA8-Xy-X6q" secondAttribute="leading" id="tji-v1-nIh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zX5-Za-ysX"/>
                     </view>
                 </viewController>
@@ -4194,9 +4525,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKJ-th-iCI">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKJ-th-iCI">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6k-89-D9o">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -4210,18 +4540,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRa-Qh-UAw">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="fRj-A0-Y4P"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="lAH-Zb-Ue9"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="R4o-tq-mTL"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="Xx5-0W-Mzv"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="O2w-vs-CO9"/>
-                                </items>
-                            </tabBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPG-h9-jgd">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -4236,9 +4554,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVU-WH-uP1">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVU-WH-uP1">
                                 <rect key="frame" x="0.0" y="231" width="414" height="234"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uaO-kY-w0R">
                                         <rect key="frame" x="0.0" y="77" width="414" height="80"/>
@@ -4287,17 +4604,50 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbh-eD-6m2">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbh-eD-6m2">
                                 <rect key="frame" x="145" y="502" width="125" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.83524977990000004" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLM-3l-9FW">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="t3x-3k-drJ">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="27u-aL-BCv">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="jyK-aD-9QQ">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="oVR-wD-lbk">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="ypC-dp-Y9M">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OVU-WH-uP1" firstAttribute="leading" secondItem="XF8-Lq-25g" secondAttribute="leading" id="2xE-CW-0JV"/>
+                            <constraint firstItem="eKJ-th-iCI" firstAttribute="top" secondItem="XF8-Lq-25g" secondAttribute="top" constant="44" id="7bx-AA-PmV"/>
+                            <constraint firstAttribute="trailing" secondItem="eKJ-th-iCI" secondAttribute="trailing" id="EkA-uz-Cml"/>
+                            <constraint firstItem="eKJ-th-iCI" firstAttribute="leading" secondItem="XF8-Lq-25g" secondAttribute="leading" id="PRm-62-0am"/>
+                            <constraint firstItem="zbh-eD-6m2" firstAttribute="leading" secondItem="XF8-Lq-25g" secondAttribute="leadingMargin" constant="125" id="TA0-0p-ooo"/>
+                            <constraint firstAttribute="trailing" secondItem="OVU-WH-uP1" secondAttribute="trailing" id="iSW-qI-f2w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zbh-eD-6m2" secondAttribute="trailing" constant="124" id="w9V-NR-rK9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="u3O-q5-8kS"/>
                     </view>
                 </viewController>
@@ -4313,9 +4663,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipg-DO-GhE">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipg-DO-GhE">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvY-OX-0lX">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -4329,21 +4678,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="80u-ZY-HAe">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="Mhs-do-mag"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="owt-wN-eXM"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="iV0-Be-dc3"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="SkE-As-5lk"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="PSo-NN-lfM"/>
-                                </items>
-                            </tabBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f6X-R5-hK9">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f6X-R5-hK9">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abonos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dof-bs-Atn">
                                         <rect key="frame" x="0.0" y="18" width="414" height="36"/>
@@ -4355,9 +4691,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8DY-VR-t5W">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8DY-VR-t5W">
                                 <rect key="frame" x="0.0" y="231" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUs-Hg-Y5c">
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
@@ -4409,8 +4744,43 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.79623818400000002" green="1" blue="0.81566172839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ulC-pz-8EW">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="gU2-2l-Z9p">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="oli-oG-Wgp">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="piq-7V-BfZ">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="15Q-mx-M1R">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="mqF-a7-u2d">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8DY-VR-t5W" secondAttribute="trailing" id="5ok-s4-EcH"/>
+                            <constraint firstItem="ipg-DO-GhE" firstAttribute="top" secondItem="rJH-ex-Swf" secondAttribute="top" constant="44" id="Isy-5T-QT2"/>
+                            <constraint firstItem="8DY-VR-t5W" firstAttribute="leading" secondItem="rJH-ex-Swf" secondAttribute="leading" id="PhK-do-seD"/>
+                            <constraint firstAttribute="trailing" secondItem="ipg-DO-GhE" secondAttribute="trailing" id="Tnm-Ml-peu"/>
+                            <constraint firstItem="ipg-DO-GhE" firstAttribute="leading" secondItem="rJH-ex-Swf" secondAttribute="leading" id="dK9-5d-Dic"/>
+                            <constraint firstItem="f6X-R5-hK9" firstAttribute="leading" secondItem="rJH-ex-Swf" secondAttribute="leading" id="fIe-UP-ydV"/>
+                            <constraint firstAttribute="trailing" secondItem="f6X-R5-hK9" secondAttribute="trailing" id="ghw-kS-wHb"/>
+                            <constraint firstItem="f6X-R5-hK9" firstAttribute="top" secondItem="rJH-ex-Swf" secondAttribute="top" constant="121" id="pgo-q5-nxI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yh5-MU-yfL"/>
                     </view>
                 </viewController>
@@ -4426,9 +4796,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S7S-H1-W8r">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S7S-H1-W8r">
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S63-vh-CYE">
                                         <rect key="frame" x="299" y="28" width="95" height="25"/>
@@ -4442,21 +4811,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83986899849999996" green="1" blue="0.83291945980000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5B-QN-gzW">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Animales" image="ant.fill" id="jfE-iH-Xq8"/>
-                                    <tabBarItem title="Cultivos" image="suit.club.fill" id="F3m-dE-BC2"/>
-                                    <tabBarItem title="Actividades" id="tcO-Lw-WgI"/>
-                                    <tabBarItem title="Calendario" image="calendar" id="yZD-oj-EmE"/>
-                                    <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="Go8-OM-IFV"/>
-                                </items>
-                            </tabBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ToX-3Z-cC9">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ToX-3Z-cC9">
                                 <rect key="frame" x="0.0" y="121" width="414" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Humus de lombriz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5t-Vm-OeN">
                                         <rect key="frame" x="91" y="22" width="233" height="36"/>
@@ -4468,13 +4824,11 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42607003450000003" green="0.27293676140000001" blue="0.086209841070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Onq-CE-nr9">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Onq-CE-nr9">
                                 <rect key="frame" x="0.0" y="231" width="414" height="234"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Wv-PM-WS7">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Wv-PM-WS7">
                                         <rect key="frame" x="0.0" y="77" width="414" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cama" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4NS-Eo-Glc">
                                                 <rect key="frame" x="8" y="8" width="194" height="64"/>
@@ -4518,18 +4872,61 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="3Wv-PM-WS7" firstAttribute="top" secondItem="Onq-CE-nr9" secondAttribute="top" constant="77" id="fge-mF-ehG"/>
+                                    <constraint firstAttribute="bottom" secondItem="3Wv-PM-WS7" secondAttribute="bottom" constant="77" id="uLh-5H-ub2"/>
+                                </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfM-d4-huE">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfM-d4-huE">
                                 <rect key="frame" x="145" y="502" width="125" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.83524977990000004" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWl-yF-QVH">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Animales" image="icons8-cat-footprint-50" id="sfm-O0-sfM">
+                                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Cultivos" image="icons8-natural-food-50" id="pkf-iN-uKX">
+                                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Actividades" image="icons8-task-completed-50" id="STN-kS-ViJ">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Calendario" image="icons8-calendar-50" id="xc2-wK-Hkg">
+                                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="3"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Extras" image="icons8-user-50" id="vC1-2f-rjl">
+                                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="2"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="JfM-d4-huE" secondAttribute="trailing" constant="124" id="1DM-pE-qZB"/>
+                            <constraint firstAttribute="bottom" secondItem="Onq-CE-nr9" secondAttribute="bottom" constant="431" id="8cW-dM-0vO"/>
+                            <constraint firstItem="S7S-H1-W8r" firstAttribute="centerX" secondItem="Uge-pG-TwQ" secondAttribute="centerX" id="Cap-x2-U0Q"/>
+                            <constraint firstItem="S7S-H1-W8r" firstAttribute="top" secondItem="Uge-pG-TwQ" secondAttribute="top" constant="44" id="DN4-Ho-w9r"/>
+                            <constraint firstItem="Onq-CE-nr9" firstAttribute="leading" secondItem="Uge-pG-TwQ" secondAttribute="leading" id="Dt2-YK-ZAo"/>
+                            <constraint firstAttribute="trailing" secondItem="Onq-CE-nr9" secondAttribute="trailing" id="F9i-hx-zJV"/>
+                            <constraint firstItem="S7S-H1-W8r" firstAttribute="leading" secondItem="Uge-pG-TwQ" secondAttribute="leading" id="FpO-nT-1Si"/>
+                            <constraint firstAttribute="trailing" secondItem="S7S-H1-W8r" secondAttribute="trailing" id="J3i-iN-86w"/>
+                            <constraint firstItem="ToX-3Z-cC9" firstAttribute="leading" secondItem="Uge-pG-TwQ" secondAttribute="leading" id="WT4-4Z-hgF"/>
+                            <constraint firstItem="Onq-CE-nr9" firstAttribute="top" secondItem="S7S-H1-W8r" secondAttribute="bottom" constant="107" id="WZc-ca-0dH"/>
+                            <constraint firstAttribute="trailing" secondItem="ToX-3Z-cC9" secondAttribute="trailing" id="baI-A0-JmJ"/>
+                            <constraint firstItem="ToX-3Z-cC9" firstAttribute="centerX" secondItem="Uge-pG-TwQ" secondAttribute="centerX" id="gEm-z4-mex"/>
+                            <constraint firstItem="JfM-d4-huE" firstAttribute="leading" secondItem="Uge-pG-TwQ" secondAttribute="leadingMargin" constant="125" id="nkB-Mx-BiS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wZe-QR-NHm"/>
                     </view>
                 </viewController>
@@ -4544,15 +4941,20 @@
         <image name="calendar" width="16" height="16"/>
         <image name="checkmark.square.fill" width="16" height="16"/>
         <image name="clear.fill" width="16" height="16"/>
+        <image name="icons8-calendar-50" width="50" height="50"/>
+        <image name="icons8-cat-footprint-50" width="50" height="50"/>
         <image name="icons8-chevron-left-30" width="30" height="30"/>
         <image name="icons8-chevron-right-30" width="30" height="30"/>
         <image name="icons8-delete-50" width="50" height="50"/>
         <image name="icons8-edit-50" width="50" height="50"/>
         <image name="icons8-exit-250" width="250" height="250"/>
         <image name="icons8-female-profile-250" width="250" height="250"/>
+        <image name="icons8-natural-food-50" width="50" height="50"/>
         <image name="icons8-plus-50" width="50" height="50"/>
+        <image name="icons8-task-completed-50" width="50" height="50"/>
         <image name="icons8-team-60" width="60" height="60"/>
         <image name="icons8-unchecked-checkbox-50" width="50" height="50"/>
+        <image name="icons8-user-50" width="50" height="50"/>
         <image name="kb" width="300" height="202"/>
         <image name="pencil.circle.fill" width="16" height="16"/>
         <image name="rectangle.grid.1x2.fill" width="16" height="16"/>
