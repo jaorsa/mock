@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVY-7b-YJl">
-                                <rect key="frame" x="92" y="138.5" width="230" height="196"/>
+                                <rect key="frame" x="92" y="139" width="230" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Logo" backgroundImage="pencil.circle.fill">
+                                <state key="normal" title="Logo" backgroundImage="icons8-female-profile-250">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
@@ -67,7 +67,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                     <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -89,7 +89,7 @@
                                 <rect key="frame" x="83" y="204.5" width="249" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="person.circle.fill"/>
+                                <state key="normal" backgroundImage="icons8-female-profile-250"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2h7-d9-L8y">
                                 <rect key="frame" x="75" y="481" width="296" height="34"/>
@@ -141,7 +141,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                     <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -163,7 +163,7 @@
                                 <rect key="frame" x="81" y="214" width="249" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="person.circle.fill"/>
+                                <state key="normal" backgroundImage="icons8-female-profile-250"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zQi-2t-ghR">
                                 <rect key="frame" x="73" y="491" width="296" height="34"/>
@@ -238,14 +238,6 @@
                                 <color key="barTintColor" red="0.97646147009999995" green="0.97646445039999996" blue="0.97647100689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tabBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eY-C3-LyN">
-                                <rect key="frame" x="10" y="242" width="404" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <state key="normal" title="Tabla de trabajo">
-                                    <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvL-3l-NgF">
                                 <rect key="frame" x="10" y="367" width="404" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -263,22 +255,30 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYr-bJ-Mdh">
-                                <rect key="frame" x="283" y="271" width="87" height="42"/>
+                                <rect key="frame" x="296" y="280" width="61" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button" backgroundImage="arrowshape.turn.up.right.fill"/>
+                                <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU1-Q3-op5">
-                                <rect key="frame" x="283" y="403" width="87" height="42"/>
+                                <rect key="frame" x="296" y="403" width="61" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button" backgroundImage="arrowshape.turn.up.right.fill"/>
+                                <state key="normal" backgroundImage="icons8-edit-50"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Rn-Im-0wF">
-                                <rect key="frame" x="296" y="497" width="61" height="56"/>
+                                <rect key="frame" x="296" y="504" width="61" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="power"/>
+                                <state key="normal" backgroundImage="icons8-exit-250"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eY-C3-LyN">
+                                <rect key="frame" x="10" y="259" width="404" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="Tabla de trabajo">
+                                    <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -318,7 +318,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -613,7 +613,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -631,7 +631,7 @@
                                 <rect key="frame" x="83" y="216.5" width="249" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="person.circle.fill"/>
+                                <state key="normal" backgroundImage="icons8-female-profile-250"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mi equipo de trabajo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24s-PH-w6d">
                                 <rect key="frame" x="79" y="477.5" width="256" height="33"/>
@@ -644,7 +644,7 @@
                                 <rect key="frame" x="91" y="540.5" width="228" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="person.3.fill"/>
+                                <state key="normal" backgroundImage="icons8-team-60"/>
                             </button>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4oB-pP-fem">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
@@ -684,7 +684,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -702,7 +702,7 @@
                                 <rect key="frame" x="83" y="217" width="249" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="person.circle.fill"/>
+                                <state key="normal" backgroundImage="icons8-female-profile-250"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="José Manuel López C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVq-8h-sRM">
                                 <rect key="frame" x="79" y="478" width="267" height="33"/>
@@ -878,37 +878,37 @@
                                     </tableViewSection>
                                 </sections>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" translatesAutoresizingMaskIntoConstraints="NO" id="BO1-up-Y4c">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-female-profile-250" translatesAutoresizingMaskIntoConstraints="NO" id="BO1-up-Y4c">
                                 <rect key="frame" x="0.0" y="282" width="46" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" translatesAutoresizingMaskIntoConstraints="NO" id="bkq-IR-uXz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-female-profile-250" translatesAutoresizingMaskIntoConstraints="NO" id="bkq-IR-uXz">
                                 <rect key="frame" x="0.0" y="323" width="46" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" translatesAutoresizingMaskIntoConstraints="NO" id="2Cy-3Q-FbV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-female-profile-250" translatesAutoresizingMaskIntoConstraints="NO" id="2Cy-3Q-FbV">
                                 <rect key="frame" x="0.0" y="364" width="46" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" translatesAutoresizingMaskIntoConstraints="NO" id="cbk-cq-2cr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-female-profile-250" translatesAutoresizingMaskIntoConstraints="NO" id="cbk-cq-2cr">
                                 <rect key="frame" x="0.0" y="415" width="46" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" translatesAutoresizingMaskIntoConstraints="NO" id="pPT-FI-jPX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-female-profile-250" translatesAutoresizingMaskIntoConstraints="NO" id="pPT-FI-jPX">
                                 <rect key="frame" x="0.0" y="458" width="46" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" translatesAutoresizingMaskIntoConstraints="NO" id="t1o-wI-pVu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-female-profile-250" translatesAutoresizingMaskIntoConstraints="NO" id="t1o-wI-pVu">
                                 <rect key="frame" x="0.0" y="497" width="46" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" translatesAutoresizingMaskIntoConstraints="NO" id="Vlp-lo-uXI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-female-profile-250" translatesAutoresizingMaskIntoConstraints="NO" id="Vlp-lo-uXI">
                                 <rect key="frame" x="0.0" y="547" width="46" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -929,7 +929,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -951,7 +951,7 @@
                                         <rect key="frame" x="38" y="8.5" width="59" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" backgroundImage="person.crop.circle.fill.badge.plus"/>
+                                        <state key="normal" backgroundImage="icons8-plus-50"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -982,7 +982,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -993,7 +993,7 @@
                                 <rect key="frame" x="83" y="217" width="248" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="person.crop.circle.fill.badge.plus"/>
+                                <state key="normal" backgroundImage="icons8-female-profile-250"/>
                             </button>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kCz-t2-aw2">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
@@ -1076,13 +1076,13 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <state key="normal" image="circle.grid.3x3.fill"/>
+                                        <state key="normal" image="icons8-edit-50"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBw-fh-bFt">
                                         <rect key="frame" x="335" y="40" width="51" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.1584702432" green="0.58856099839999998" blue="0.26267659659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="plus.rectangle.fill"/>
+                                        <state key="normal" backgroundImage="icons8-plus-50"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.89202097920000001" green="0.8866147915" blue="0.89742716700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1096,7 +1096,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -1127,10 +1127,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmv-Bt-cGl">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1140,10 +1140,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qy-wN-8i0">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar cortinas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzw-Af-kgG">
                                         <rect key="frame" x="15" y="-13" width="158" height="112"/>
@@ -1160,10 +1160,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7AI-of-GT7">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar mangeras" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciJ-ro-WMk">
                                         <rect key="frame" x="11" y="-13" width="167" height="112"/>
@@ -1180,10 +1180,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWh-d1-3P2">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revisión de plantas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZJ-0g-BY6">
                                         <rect key="frame" x="11" y="-13" width="167" height="112"/>
@@ -1200,10 +1200,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uC-cl-Cem">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contar animales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ads-hM-HMC">
                                         <rect key="frame" x="11" y="-13" width="167" height="112"/>
@@ -1220,10 +1220,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoP-rB-8ye">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comprar medicamento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sJ-9y-GZt">
                                         <rect key="frame" x="16" y="-11" width="157" height="112"/>
@@ -1282,13 +1282,13 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <state key="normal" image="circle.grid.3x3.fill"/>
+                                        <state key="normal" image="icons8-edit-50"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4I-w4-ntS">
                                         <rect key="frame" x="335" y="40" width="51" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.1584702432" green="0.58856099839999998" blue="0.26267659659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="plus.rectangle.fill"/>
+                                        <state key="normal" backgroundImage="icons8-plus-50"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.89202097920000001" green="0.8866147915" blue="0.89742716700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1302,7 +1302,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -1333,10 +1333,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puj-un-SdS">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1346,10 +1346,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QC9-V8-8kX">
-                                        <rect key="frame" x="79" y="95" width="30" height="30"/>
+                                        <rect key="frame" x="69" y="85" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="second"/>
+                                        <state key="normal" image="icons8-unchecked-checkbox-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar cortinas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78r-a3-rsh">
                                         <rect key="frame" x="15" y="-13" width="158" height="112"/>
@@ -1469,8 +1469,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="keyb" translatesAutoresizingMaskIntoConstraints="NO" id="NCT-Dd-sbO">
-                                <rect key="frame" x="-42" y="521" width="494" height="288"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kb" translatesAutoresizingMaskIntoConstraints="NO" id="NCT-Dd-sbO">
+                                <rect key="frame" x="0.0" y="521" width="414" height="288"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1649,7 +1649,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                                <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                                     <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
@@ -1675,16 +1675,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iH7-BA-MfL">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob9-lj-iSm">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="274" y="0.0" width="71" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revisar el tapete sanitario" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbX-y5-ulB">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -1701,16 +1701,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sX6-gp-nlk">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaH-Zp-oyj">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="275" y="0.0" width="70" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar cortinas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbJ-aD-ygL">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -1726,17 +1726,11 @@
                                         <rect key="frame" x="35" y="477" width="345" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGL-cs-Gd1">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2T-Cc-eI4">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="276" y="0.0" width="69" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revisión de plantas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eV-Zr-uBr">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -1745,6 +1739,12 @@
                                                 <color key="textColor" red="0.14154347780000001" green="0.41545978189999999" blue="0.082941837609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGL-cs-Gd1">
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="62"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -1753,16 +1753,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaM-ro-Gu2">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2E-2y-d9a">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="271" y="0.0" width="74" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar mangueras" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mef-WX-Rrg">
                                                 <rect key="frame" x="70" y="-18" width="193" height="99"/>
@@ -1797,7 +1797,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2W7-ew-7Hm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8667" y="372"/>
+            <point key="canvasLocation" x="8666.6666666666679" y="371.65178571428572"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="56O-gz-y4y">
@@ -1966,7 +1966,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                                <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                                     <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
@@ -1992,16 +1992,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhh-mB-MHe">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuP-yG-FLd">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="270" y="0.0" width="75" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revisar el tapete sanitario" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBj-LH-fe7">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -2018,16 +2018,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlp-4V-jLt">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBC-93-YzM">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="262" y="0.0" width="83" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar cortinas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPM-xG-ZCA">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -2103,12 +2103,8 @@
                                             <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="cT4-Ln-tBy"/>
                                         </items>
                                     </tabBar>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="keyb" translatesAutoresizingMaskIntoConstraints="NO" id="mSL-b7-G1Q">
-                                        <rect key="frame" x="-40" y="525" width="494" height="288"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ml8-iI-CTn">
-                                        <rect key="frame" x="0.0" y="421" width="414" height="155"/>
+                                        <rect key="frame" x="0.0" y="425" width="414" height="155"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre de la tarea..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewB-re-dX8">
@@ -2135,6 +2131,10 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kb" translatesAutoresizingMaskIntoConstraints="NO" id="JTv-ED-QXD">
+                                        <rect key="frame" x="0.0" y="531" width="414" height="288"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="wtW-UU-3Va"/>
@@ -2217,7 +2217,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Osb-kg-l0G">
-                                        <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                        <rect key="frame" x="8" y="0.0" width="63" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" backgroundImage="pencil.circle.fill"/>
@@ -2243,10 +2243,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exk-1V-qri">
-                                        <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                        <rect key="frame" x="8" y="-12" width="63" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                        <state key="normal" backgroundImage="icons8-edit-50"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pv-fS-igg">
                                         <rect key="frame" x="267" y="-12" width="93" height="85"/>
@@ -2315,7 +2315,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                                <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                                     <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
@@ -2341,16 +2341,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq8-6E-iOw">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtG-od-kOD">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="267" y="0.0" width="78" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revisar el tapete sanitario" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A29-Ew-dJW">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -2370,13 +2370,13 @@
                                                 <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ic4-le-Zdx">
                                                 <rect key="frame" x="267" y="-12" width="93" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar cortinas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzg-Cf-pKm">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -2402,7 +2402,7 @@
                                                 <rect key="frame" x="267" y="-12" width="93" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revisión de plantas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRF-sY-19j">
                                                 <rect key="frame" x="79" y="-18" width="175" height="99"/>
@@ -2419,16 +2419,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzg-l2-5JQ">
-                                                <rect key="frame" x="-22" y="-10.5" width="93" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.96848052740000001" green="0.93312038890000004" blue="0.17730069530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" backgroundImage="pencil.circle.fill"/>
+                                                <state key="normal" backgroundImage="icons8-edit-50"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWm-Qt-4W1">
-                                                <rect key="frame" x="267" y="-12" width="93" height="85"/>
+                                                <rect key="frame" x="271" y="0.0" width="74" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" backgroundImage="clear.fill"/>
+                                                <state key="normal" backgroundImage="icons8-delete-50"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abrir/cerrar mangueras" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cn-gT-dH6">
                                                 <rect key="frame" x="70" y="-18" width="193" height="99"/>
@@ -2515,7 +2515,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -2542,7 +2542,7 @@
                                         <rect key="frame" x="360" y="21" width="46" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="plus"/>
+                                        <state key="normal" backgroundImage="icons8-plus-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conejos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRe-6G-DO2">
                                         <rect key="frame" x="0.0" y="22" width="414" height="29"/>
@@ -2562,7 +2562,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Camada 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzH-Se-lU6">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -2589,7 +2589,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Camada 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1r-0N-Plh">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -2616,7 +2616,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Camada 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDo-tW-2wb">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -2661,7 +2661,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -2812,7 +2812,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -2839,7 +2839,7 @@
                                         <rect key="frame" x="360" y="21" width="46" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="plus"/>
+                                        <state key="normal" backgroundImage="icons8-plus-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cultivos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mm-9s-z5u">
                                         <rect key="frame" x="0.0" y="19" width="414" height="29"/>
@@ -2859,7 +2859,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zona 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aow-Xf-ao5">
                                         <rect key="frame" x="8" y="8" width="344" height="112"/>
@@ -2879,7 +2879,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zona 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df8-6L-eay">
                                         <rect key="frame" x="8" y="8" width="344" height="112"/>
@@ -2899,7 +2899,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zona 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY7-IS-Bl0">
                                         <rect key="frame" x="8" y="8" width="344" height="112"/>
@@ -2937,7 +2937,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -3053,7 +3053,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -3094,7 +3094,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insecticidas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBX-uB-rS0">
                                         <rect key="frame" x="8" y="8" width="344" height="112"/>
@@ -3114,7 +3114,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fungicidas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nao-HM-Xzb">
                                         <rect key="frame" x="8" y="8" width="344" height="112"/>
@@ -3134,7 +3134,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abonos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEi-2c-fmx">
                                         <rect key="frame" x="8" y="8" width="344" height="112"/>
@@ -3154,7 +3154,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cultivos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8a-gn-gxu">
                                         <rect key="frame" x="8" y="8" width="344" height="112"/>
@@ -3192,7 +3192,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -3343,7 +3343,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -3370,7 +3370,7 @@
                                         <rect key="frame" x="360" y="17" width="46" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="plus"/>
+                                        <state key="normal" backgroundImage="icons8-plus-50"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zona 1: Cultivos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4y-hK-Ova">
                                         <rect key="frame" x="0.0" y="15" width="414" height="36"/>
@@ -3401,7 +3401,7 @@
                                                 <rect key="frame" x="360" y="10" width="46" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" backgroundImage="plus"/>
+                                                <state key="normal" backgroundImage="icons8-plus-50"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3466,7 +3466,7 @@
                                                 <rect key="frame" x="360" y="10" width="46" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" backgroundImage="plus"/>
+                                                <state key="normal" backgroundImage="icons8-plus-50"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3531,7 +3531,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -3674,7 +3674,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -3858,7 +3858,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -3899,7 +3899,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="plus"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spray de ajo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sc2-Ka-NHN">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -3926,7 +3926,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sulfato de magnecio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYK-oc-sIf">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -3971,7 +3971,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -4090,7 +4090,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -4131,7 +4131,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purin de ortiga" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uda-ne-7hk">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -4158,7 +4158,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sulfato de cobre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7f-1F-TCv">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -4203,7 +4203,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -4322,7 +4322,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -4363,7 +4363,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Humus de lombriz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cO-2K-md9">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -4390,7 +4390,7 @@
                                         <rect key="frame" x="360" y="2" width="46" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.14086359740000001" green="0.41914165019999999" blue="0.082226224240000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" backgroundImage="chevron.right"/>
+                                        <state key="normal" backgroundImage="icons8-chevron-right-30"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Compost" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VzA-jm-qAo">
                                         <rect key="frame" x="8" y="8" width="344" height="68"/>
@@ -4435,7 +4435,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="tintColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Atrás" image="arrowshape.turn.up.left.fill">
+                                        <state key="normal" title="Atrás" image="icons8-chevron-left-30">
                                             <color key="titleColor" red="0.42906531689999999" green="0.27121329309999997" blue="0.08685288578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -4449,7 +4449,7 @@
                                 <items>
                                     <tabBarItem title="Animales" image="ant.fill" id="jfE-iH-Xq8"/>
                                     <tabBarItem title="Cultivos" image="suit.club.fill" id="F3m-dE-BC2"/>
-                                    <tabBarItem title="Actividades" image="checkmark.square.fill" id="tcO-Lw-WgI"/>
+                                    <tabBarItem title="Actividades" id="tcO-Lw-WgI"/>
                                     <tabBarItem title="Calendario" image="calendar" id="yZD-oj-EmE"/>
                                     <tabBarItem title="Extras" image="rectangle.grid.1x2.fill" id="Go8-OM-IFV"/>
                                 </items>
@@ -4541,21 +4541,20 @@
     <resources>
         <image name="ant.fill" width="16" height="16"/>
         <image name="arrowshape.turn.up.left.fill" width="16" height="16"/>
-        <image name="arrowshape.turn.up.right.fill" width="16" height="16"/>
         <image name="calendar" width="16" height="16"/>
         <image name="checkmark.square.fill" width="16" height="16"/>
-        <image name="chevron.right" width="16" height="16"/>
-        <image name="circle.grid.3x3.fill" width="16" height="16"/>
         <image name="clear.fill" width="16" height="16"/>
-        <image name="keyb" width="16" height="16"/>
+        <image name="icons8-chevron-left-30" width="30" height="30"/>
+        <image name="icons8-chevron-right-30" width="30" height="30"/>
+        <image name="icons8-delete-50" width="50" height="50"/>
+        <image name="icons8-edit-50" width="50" height="50"/>
+        <image name="icons8-exit-250" width="250" height="250"/>
+        <image name="icons8-female-profile-250" width="250" height="250"/>
+        <image name="icons8-plus-50" width="50" height="50"/>
+        <image name="icons8-team-60" width="60" height="60"/>
+        <image name="icons8-unchecked-checkbox-50" width="50" height="50"/>
+        <image name="kb" width="300" height="202"/>
         <image name="pencil.circle.fill" width="16" height="16"/>
-        <image name="person.3.fill" width="16" height="16"/>
-        <image name="person.circle" width="16" height="16"/>
-        <image name="person.circle.fill" width="16" height="16"/>
-        <image name="person.crop.circle.fill.badge.plus" width="16" height="16"/>
-        <image name="plus" width="16" height="16"/>
-        <image name="plus.rectangle.fill" width="16" height="16"/>
-        <image name="power" width="16" height="16"/>
         <image name="rectangle.grid.1x2.fill" width="16" height="16"/>
         <image name="second" width="30" height="30"/>
         <image name="suit.club.fill" width="16" height="16"/>
